@@ -66,3 +66,15 @@ footer {
   flex-direction: row;
   justify-content: space-around;
 }
+
+footer a {
+  color: black;
+}
+
+main {
+  min-height: 90vh;
+}
+
+.page {
+  padding: 80px 80px;
+}

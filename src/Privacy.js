@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Privacy extends Component {
   render() {
     return (
-      <div>
+      <div className="page">
         <h1>Privacy Policy</h1>
         <p>Last modified: 12 March 2020</p>
         <p>
@@ -39,7 +39,7 @@ export default class Privacy extends Component {
         </p>
         <h2>Contact Us</h2>
         <p>
-          If you have any questions about this Privacy Policy, please contact us at [help+chatty@angelabranaes.com](mailto:help+chatty@angelabranaes.com)
+          If you have any questions about this Privacy Policy, please contact us at <a href="help@bechatty.app">help@bechatty.app</a>
         </p>
       </div>
     )
