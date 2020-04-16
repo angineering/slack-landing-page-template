@@ -1,8 +1,8 @@
-# Chatty
+# Slack App Landing Page Template
 
-This is the landing page repository for the Chatty slack app.
+Use this template to quickly make landing pages for slack apps.
 
 
 ## Support
 
-If you experience any issues with the Chatty app, please email [help@bechatty.app](mailto:help@bechatty.app)
+List your support contact here.

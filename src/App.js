@@ -27,7 +27,7 @@ function App() {
               height="30"
               className="d-inline-block align-top"
             />{' '}
-            Chatty
+            APP NAME
           </Navbar.Brand>
         </Navbar>
         {/* A <Switch> looks through its children <Route>s and
@@ -52,7 +52,7 @@ function App() {
             <Link to='contact'>Contact</Link>
             <Link to='privacy'>Privacy Policy</Link>
             <Link to='terms'>Terms & Conditions</Link>
-            <p>&copy; Angela Branaes 2020</p>
+            <p>&copy; COMPANY 2020</p>
         </footer>
       </div>
     </Router>

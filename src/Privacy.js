@@ -5,25 +5,17 @@ export default class Privacy extends Component {
     return (
       <div className="page">
         <h1>Privacy Policy</h1>
-        <p>Last modified: 12 March 2020</p>
+        <p>Last modified: DATE</p>
         <p>
-          Thank you for using Chatty. This policy explains how we handle your personal data and privacy.
+          Thank you for using THIS APP. This policy explains how we handle your personal data and privacy.
         </p>
         <h2>Information collection and use</h2>
         <p>
-          Chatty only uses your approved Slack data to give you an insight into who you've spoken to recently and who you should reach out to, to help you improve your network inside your workspace. 
+          TODO ADD INFO HERE
         </p>
+
         <p>
-          Chatty requests access to see who the members of your workspace are, so it can give you an overview of who you have and haven't spoken to recently.
-        </p>
-        <p>
-          Chatty requests access to your Slack Direct Messages solely for the purpose of seeing when the last message was exchanged with a member of your workspace. We never look at or store the content of those messages.
-        </p>
-        <p>
-          Your user token is securely stored in our database. It is linked to your slack user ID. Your name is not recorded in our database.
-        </p>
-        <p>
-          If you decide to stop using Chatty and revoke access, your user information will be deleted from our database.
+          If you decide to stop using THIS APP and revoke access, your user information will be deleted from our database.
         </p>
         <h2>3rd Parties</h2>
         <p>
@@ -39,7 +31,7 @@ export default class Privacy extends Component {
         </p>
         <h2>Contact Us</h2>
         <p>
-          If you have any questions about this Privacy Policy, please contact us at <a href="help@bechatty.app">help@bechatty.app</a>
+          If you have any questions about this Privacy Policy, please contact us at <a href="email">email</a>
         </p>
       </div>
     )
