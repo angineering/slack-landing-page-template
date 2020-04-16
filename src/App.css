@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  text-align: left;
+}
+
+.App-navbar {
+  background-color: #ed2354;
+  font-weight: 700;
 }
 
 .App-logo {
@@ -14,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ed2354;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +27,23 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px 100px;
+}
+
+.App-header h1 {
+  font-weight:700;
+  font-size: 3rem;
+}
+
+.App-header div {
+  padding: 30px;
+  text-align: left;
+}
+
+@media (min-width: 800px ) {
+  .App-header {
+    flex-direction: row;
+  }
 }
 
 .App-link {
@@ -35,4 +57,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+footer {
+  height: 100px;
+  padding: 40px;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-around;
 }
